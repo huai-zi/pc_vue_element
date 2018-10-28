@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  height: 100%;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  vertical-align: baseline
+}
+
+ol, ul {
+  list-style: none
+}
+
+:focus {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal
+}
+
+strong {
+  font-weight: 600
+}
+
+a {
+  font: 12px Arial;
+  text-decoration: none;
+  color: #404040;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FF3300
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
+}
+
+.clear {
+  clear: both
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent; /*在移动端特殊设置,取消高亮设置,将其中改成透明的颜色*/
+  /*设置所有的盒子的宽度以边框开始计算*/
+  -webkit-box-sizing: border-box;
+  /*要兼容webket浏览器内核厂商  这种情况一般是老的移动端浏览器*/
+  box-sizing: border-box;
+}
+
+.cursor {
+  cursor: pointer !important;
+}
+
+body {
+  color: #333;
+  font-family: "微软雅黑", sans-serif;
+  font-size: 14px;
+}
+
+.clear-fix::after,
+.clear-fix::before {
+  content: ".";
+  line-height: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, textarea {
+  border: none;
+  outline: none;
+  resize: none; /*不允许用户拉伸文本框*/
+  /*特殊的属性定义  清楚浏览器给input自带的样式*/
+  -webkit-appearance: none; /*组建默认的样式为空*/
+}
+
+.f_left {
+  float: left;
+}
+
+.f_right {
+  float: right;
+}
+
+input, button, select, optgroup, textarea {
+  line-height: normal !important;
+}
