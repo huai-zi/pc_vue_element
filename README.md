@@ -1,10 +1,10 @@
-##使用教程
+## 使用教程
 - 由于在使用vue过程中需要使用到npm包管理器
 - 需要下载并安装[nodejs](http://nodejs.cn/download/)，node安装教程-[nodejs安装教程](https://www.runoob.com/nodejs/nodejs-install-setup.html)，新手指引--如若不清楚npm功能，请移步[npm使用介绍](https://www.runoob.com/nodejs/nodejs-npm.html#taobaonpm)
 - 由于npm安装速度慢，本教程使用了淘宝的镜像及其命令cnpm,安装使用介绍参照：[使用淘宝 NPM 镜像](http://npm.taobao.org/)
 - 注意：npm 版本需要大于 3.0，如果低于此版本需要升级
 
-###启动方式
+### 启动方式
 - 将项目进行pull或clone下,使用命令行工具（cmd或终端）在项目内部（能看到package.json文件的目录）进行插件安装，呼出命令行，使用cnpm install即可
 - 安装结束，查看package.json文件中scripts参数后面的指令，使用cnpm run dev(看热部署指令别称即可)，项目运行
 - 查看或修改访问接口，在config/index.js文件中，修改dev.port参数，并重复上述的启动方式
