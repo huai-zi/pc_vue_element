@@ -22,9 +22,7 @@ let router = new Router({
 //全局守卫,页面加载的时候,监控路由是否相同
 router.beforeEach((to, from, next) => {
   // 使用过程为, 先判断vuex里面一条数据, 判断是否登陆
-  console.log(to);
   next()
-
   //判断是否结合store进行登录管理
   // if (to.path === '/page' || to.path === '/') {
   //   next();//进行登陆,直接渲染界面
@@ -36,12 +34,8 @@ router.beforeEach((to, from, next) => {
 
 //后置钩子,进入组件之后会调用钩子函数
 router.afterEach((to, from) => {
-  console.log(to);
-  console.log(from);
   alert('进入路由组件完成阶段的后置钩子');
-
 })
-
 
 export default router
 
