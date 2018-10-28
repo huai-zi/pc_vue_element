@@ -1,6 +1,6 @@
 <template>
   <div id="login">
-    {{login}}
+    {{login | numTostring}}
     <el-button round @click='api'>数据请求</el-button>
   </div>
 </template>
@@ -8,6 +8,8 @@
   //引入书写好的api文件
   import {login} from '@/api/modules/login';
   import Mock from 'mockjs';
+  //引入过滤器处理数据
+  import {numTostring} from '../../filters/index';
 
   export default {
     name: 'login',

@@ -9,7 +9,6 @@
 - 安装结束，查看package.json文件中scripts参数后面的指令，使用cnpm run dev(看热部署指令别称即可)，项目运行
 - 查看或修改访问接口，在config/index.js文件中，修改dev.port参数，并重复上述的启动方式
 
-[ECharts结合vue使用手册](http://echarts.baidu.com/tutorial.html#%E5%9C%A8%20webpack%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20ECharts "echarts引入以及使用")
 ## VUE 基础知识手册以及使用过程中可能遇到的问题（内容粗劣，仅供知识回顾，需要详细内容，请移步[vue官网](https://cn.vuejs.org/)）
 
 1. 声明接管区域
@@ -542,4 +541,6 @@ cnpm i vue-preview --sava-dev
 ```
 cnpm i element --S
 ```
+
+5. [ECharts结合vue使用手册](http://echarts.baidu.com/tutorial.html#%E5%9C%A8%20webpack%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20ECharts "echarts引入以及使用")
 
