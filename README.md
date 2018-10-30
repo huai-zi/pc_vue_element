@@ -9,7 +9,7 @@
 - 安装结束，查看package.json文件中scripts参数后面的指令，使用cnpm run dev(看热部署指令别称即可)，项目运行
 - 查看或修改访问接口，在config/index.js文件中，修改dev.port参数，并重复上述的启动方式
 
-###项目目录结构
+### 项目目录结构
 ![项目目录结构](https://i.imgur.com/uvWkoyd.png)
 
 ## VUE 基础知识手册以及使用过程中可能遇到的问题（内容粗劣，仅供知识回顾，需要详细内容，请移步[vue官网](https://cn.vuejs.org/)）
