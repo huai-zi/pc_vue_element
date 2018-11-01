@@ -2,6 +2,7 @@
   <div id="login">
     {{login | numTostring}}
     <el-button round @click='api'>数据请求</el-button>
+    <el-button round @click='mock'>mock数据渲染</el-button>
   </div>
 </template>
 <script>
@@ -43,9 +44,21 @@
           }, err => {
             console.log('请求失败');
           });
+      },
+      mock(){
+        const cc = Mock.mock({
+          'cc|1-39':[
+            {
+              'age':'@cname'
+            }
+          ]
+        })
+        console.log(Mock.mock('@now'));
+        console.log(cc);
       }
     },
     mounted() {
+
     }
   };
 </script>
